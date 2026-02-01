@@ -1,7 +1,20 @@
-## Описание
-Проект представляет собой административное приложение для управления пользователями, меню и бронированиями, с возможностью авторизации и редактирования данных.
+# Restaurant Administration Desktop Application
 
-<img src="images/1-Screenshot_3.jpg" width="300">
+Administrative desktop application for managing users, menu items, and reservations.  
+The application communicates with a backend REST API and provides authenticated access to administrative functionality.
+
+---
+
+## 📖 Project Description
+
+This Windows Forms application was developed as an administrative client for a restaurant management system.  
+It interacts with a web backend via REST API and demonstrates desktop-to-backend communication, authentication, and CRUD operations.
+
+---
+
+## 🖼 Screenshots
+
+<img src="images/1-Screenshot_3.jpg" width="500">
 <img src="images/2-Screenshot_3.jpg" width="500">
 <img src="images/3-Screenshot_3.jpg" width="500">
 <img src="images/4-Screenshot_3.jpg" width="500">
@@ -11,61 +24,98 @@
 <img src="images/8-Screenshot_3.jpg" width="500">
 <img src="images/9-Screenshot_3.jpg" width="500">
 
-## Возможности
+---
 
-- Авторизация пользователей через форму входа.
+## 🚀 Features
 
-- Панель администратора с доступом к данным пользователей, меню и бронирований.
+- User authentication via login form
+- Administrative dashboard for managing:
+  - users
+  - menu items
+  - reservations
+- Full CRUD functionality
+- REST API communication
+- JSON serialization and deserialization
+- Asynchronous operations using .NET libraries
+- UI localization using `.resx` resource files
 
-- Добавление, редактирование и удаление записей (CRUD-функционал).
+---
 
-- Работа с JSON и асинхронными операциями через встроенные библиотеки .NET.
+## 🛠 Tech Stack
 
-- Локализация интерфейса с использованием `.resx` файлов ресурсов.
-
-## Используемые технологии
-
-- **C# / .NET Framework 4.7.2**
-- **Windows Forms**
+- **Language:** C#
+- **Framework:** .NET Framework 4.7.2
+- **UI:** Windows Forms
+- **API Communication:** REST API (HTTP, JSON)
 - **NuGet Packages:**
-  - `System.Text.Json`
-  - `System.Memory`
-  - `System.IO.Pipelines`
-  - `Microsoft.Bcl.AsyncInterfaces`
-  - `System.ValueTuple`
+  - System.Text.Json
+  - System.Memory
+  - System.IO.Pipelines
+  - Microsoft.Bcl.AsyncInterfaces
+  - System.ValueTuple
 - **IDE:** Visual Studio
 
-## Запуск и установка
+---
 
-1. Сначала склонируйте репозиторий и запустите web-приложение (сервер):
+## 🧠 What I Implemented
 
-   ```bash
-   git clone https://github.com/Tat-T/Restaurant.git (сервер web-приложение)
+- Desktop application architecture
+- REST API integration with backend service
+- Authentication flow and authorization handling
+- CRUD operations via API
+- JSON data handling
+- Asynchronous programming patterns
+- Localization using resource files
 
-2. Склонируйте репозиторий: 
+---
 
-   ```bash
-   git clone https://github.com/Tat-T/WinFormsRest.git (Windows Forms приложение)
+## ▶️ How to Run the Project
 
-3. Откройте решение в Visual Studio (WindowsAdminApp.sln).
+### Prerequisites
+- Running backend web application (REST API)
 
-4. Восстановите NuGet-пакеты:
+### Steps
 
-   ```bash
-   Tools → NuGet Package Manager → Restore Packages
+1. Clone the backend repository and run the web application:
 
-5. Выберите конфигурацию Debug или Release.
+```
+git clone https://github.com/Tat-T/Restaurant.git
+```
 
-6. Запустите проект (F5) или соберите исполняемый файл.
+2. Clone this repository:
 
-## Данные для проверки:
+```
+git clone https://github.com/Tat-T/WinFormsRest.git
+```
 
-E-mail: admin@mail.ru
+3. Open the solution in Visual Studio:
 
-Password: admin
+```
+WindowsAdminApp.sln
+```
 
-### Пример API-запроса
+4. Restore NuGet packages:
 
-<img src="images/Screenshot_1.jpg" width="500">
-<img src="images/Screenshot_2.jpg" width="500">
-<img src="images/Screenshot_4.jpg" width="500">
+```
+Tools → NuGet Package Manager → Restore Packages
+```
+
+5. Select Debug or Release configuration
+
+6. Run the application (F5) or build the executable
+
+## 🔑 Test Data
+
+Test credentials are available upon request.
+
+## 🔌 API Examples
+
+<img src="images/Screenshot_1.jpg" width="500"> <img src="images/Screenshot_2.jpg" width="500"> <img src="images/Screenshot_4.jpg" width="500">
+
+## 👩‍💻 Author
+
+Tatyana Yantkova
+
+Junior Software Engineer (.NET)
+
+Focused on backend and desktop-to-backend integration
