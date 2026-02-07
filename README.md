@@ -1,6 +1,6 @@
-# Restaurant Administration Desktop Application
+# RestaurantAdminClient
 
-Administrative desktop application for managing users, menu items, and reservations.  
+Administrative desktop client for a restaurant management system with REST API integration.  
 The application communicates with a backend REST API and provides authenticated access to administrative functionality.
 
 ---
@@ -85,7 +85,7 @@ git clone https://github.com/Tat-T/Restaurant.git
 2. Clone this repository:
 
 ```
-git clone https://github.com/Tat-T/WinFormsRest.git
+git clone https://github.com/Tat-T/RestaurantAdminClient.git
 ```
 
 3. Open the solution in Visual Studio:
